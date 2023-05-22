@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+         
+         
+.quoet-container{
+    flex-basis: 70%;
+    height: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+
+}
+.heading{
+    font-size: bolder;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    margin-bottom: 1rem;
+}
+.quoet{
+    width:90%;
+    height: 70%;
+   margin: auto;
+   margin-bottom: 1.5rem;
+    background-color: rgb(172,172,169);
+   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    padding: 1rem; 
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.newquoet{
+   background-color: black;
+   color: white;
+   border-radius: 5px;
+   text-align: center;
+  font-size: 18px;
+   width:150px;
+   cursor: pointer;
+  padding: 10px 20px;
+
+
+}
+.quoet-content{
+ font-size: 40px;
+ margin-bottom: 1rem;
+ text-align: center;
+ font-family: sans-serif;
+}
+.author-name{
+font-size:20px;
+text-align: center;
+font-family: sans-serif;
+font-style: italic;
+
+}
+.twitt{
+  
+background-color: whitesmoke;
+border-radius: 20px;
+
+display: flex;
+justify-content: center;
+ width:50px;
+align-items: center;
+
+}
+.newquoet:hover{
+    background-color: #555;
+}
+.twitt:hover{
+    cursor: pointer; 
+}
